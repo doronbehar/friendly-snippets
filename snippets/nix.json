@@ -47,9 +47,10 @@
     "package-arguments": {
         "prefix": "pkg",
         "body": [
-            "{ lib",
-            ", ${1:stdenv}",
-            ", $2",
+            "{",
+            " lib,",
+            "  ${1:stdenv}, ",
+            "  $2,",
             "}:",
             "",
             "$0"
